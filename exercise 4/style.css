@@ -1,0 +1,115 @@
+/* ***header start from here *** */
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    width: 100%;
+    height: 110px;
+    margin-bottom: 1.5rem;
+}
+#hdr--flexbox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu--line {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+/* menu css start here HOVER  */
+
+#logo {
+    width: 15.625rem;
+}
+.logos > img {
+    width: 25px;
+}
+/* ***** header end here ***** */
+/* ******first section start from here ***** */
+#top--section {
+    width: 90%;
+    height: 28.125rem;
+    margin: 0 auto 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    background-image: url("imgs/backgroundd.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#top--section > h2 {
+    color: rgb(255, 72, 0);
+    font-size: 2.5rem;
+    position: relative;
+    top: -1.25rem;
+    left: -6.5625rem;
+}
+.btn--dv {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.btn {
+    border-radius: .5rem;
+    background-color: rgb(255, 72, 0);
+    font-size: 1rem;
+    padding: .8rem 1.25rem;
+   position: a;
+    border: none;
+    color: white;
+}
+/* *****end of first section***** */
+/* *****start of item menu***** */
+
+#item--menu {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.line--flx {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.item--img {
+    width: 130px;
+    height:140px;
+    background-color: gray;
+}
+.txt--item--menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    
+}
+/* css item menu text */
+.txt--item--menu > p {
+    margin: 0;
+}
+.ttl--item--menu {
+    color: gray;
+    font-size: .875rem;
+}
+.cost--item--menu {
+    color: orange;
+}
+.credit--item--menu {
+    font-size: .625rem;
+}
+/* end of css item menu */
+
+ @media only screen and (min-width: 501px) {
+    body {
+        width: 28rem;
+        margin: 0 auto;
+    }
+} 
